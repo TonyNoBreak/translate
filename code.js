@@ -90,7 +90,7 @@ const getTraduction = async (
       accept: "application/json",
       "content-type": "application/json",
       authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZjJlNjVkZDYtNzdiNi00YmFlLWE3ZTktYzU1MTg5YjJiYjJiIiwidHlwZSI6ImFwaV90b2tlbiJ9.XyIKTRJ-NU3FTMuqAjEHhRBNu3xwSeNMmsrDlOqXG64",
+        "Bearer key🔑 from endenAI",
     },
     body: JSON.stringify({
       response_as_dict: true,
@@ -144,7 +144,7 @@ const getAudio = (isInput) => {
         accept: "application/json",
         "content-type": "application/json",
         authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZjJlNjVkZDYtNzdiNi00YmFlLWE3ZTktYzU1MTg5YjJiYjJiIiwidHlwZSI6ImFwaV90b2tlbiJ9.XyIKTRJ-NU3FTMuqAjEHhRBNu3xwSeNMmsrDlOqXG64",
+          "Bearer key🔑 from endenAI",
       },
       body: JSON.stringify({
         response_as_dict: true,
